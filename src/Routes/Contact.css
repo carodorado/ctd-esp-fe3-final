@@ -1,0 +1,29 @@
+
+
+div.formContainer {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div.formContainer>div{
+    margin: 0px 20px;
+    width: 40%;
+    height: 300px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.formContainer h2{
+    margin:5px;
+}
+
+div.formContainer p{
+    margin:5px;
+}

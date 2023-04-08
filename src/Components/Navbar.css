@@ -1,0 +1,60 @@
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+    font-size: 1.5rem;
+}
+
+header img{
+    max-height: 120px;
+}
+
+header nav{
+    margin:0
+}
+
+header nav ul{
+    display:flex;    
+    justify-content: space-around;
+    padding-inline-start: 0;
+    font-size: 1.5rem
+}
+
+header nav ul li{
+    list-style: none;
+    padding: 0px 15px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #6b6b6b;
+}
+
+header nav ul li a:hover{    
+    color: #116bea;
+}
+
+header div a img{
+    max-height: 30px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+button:hover{
+    transform: scale(1.2);
+}
+
+button:active{
+    transform: scale(1);
+}
+
+.dark {
+    background-color: #2e2d2e;
+    color:white;
+
+}

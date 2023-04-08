@@ -1,0 +1,30 @@
+
+.form{
+    display:flex;
+
+    margin:10px;
+    height: 200px;
+}
+.form input{
+    width: 250px;
+    height: 30px;
+    margin:5px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border:none;
+    background-color: #e5e7e7;
+}
+
+.form label{
+    margin-bottom:5px;
+    margin-top:10px
+}
+form > button {
+    border-radius: 10px;
+    background-color: #116bea;
+    color:white;
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 30%;
+}

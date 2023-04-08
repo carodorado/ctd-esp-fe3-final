@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;      
+}
+
+.card{
+    margin: 0px 20px;
+    margin-bottom: 50px;
+    max-width: 150px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    padding: 20px 40px;
+}
+
+div.card a{
+    text-decoration: none;
+}
+
+div.card a{
+    color: inherit;
+    display: flex;
+    text-align: center;
+} 
+
+div.card img{
+    max-width: 100px;
+    border-radius: 100%;
+} 
+
+div.card h4{
+    font-size: 15px;
+    padding: 5px;
+}
+
+div.card p{
+    font-size: 12px;
+    padding: 5px;
+}
+
+
+div.card button {
+    border-radius: 10px;
+    background-color: #116bea;
+    color:white
+}
+
+h1 {
+    color:#116bea;
+    margin-bottom: 40px;
+}
